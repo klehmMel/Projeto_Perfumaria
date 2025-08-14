@@ -1,9 +1,12 @@
+import estilos from './Topo.module.css'
+
+
 export default function Topo() {
     return (
         <header>
-            <div>
+            <div className={estilos.topo}>
                 <picture>
-                    <a href=""> <img src='./logo1.jpg'/> </a>
+                    <a href=""> <img src='./logoPerfume1.png'/> </a>
                 </picture>
 
                 <nav>
