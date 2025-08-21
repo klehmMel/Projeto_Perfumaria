@@ -6,15 +6,16 @@ export default function Topo() {
         <header>
             <div className={estilos.topo}>
                 <picture>
-                    <a href=""> <img src='./logoPerfume1.png'/> </a>
+                    <a href=""> <img src='./logoPerfume.png'/> </a>
                 </picture>
 
                 <nav>
-                    <a href="#"> Produtos </a>
+                    <a href="#produto"> Produtos </a>
                     <a href="#"> Sobre </a>  
                     <a href="#"> Contatos </a>
-                     
                 </nav>
+
+
             </div>
         </header>
     )
