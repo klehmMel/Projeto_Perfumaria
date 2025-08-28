@@ -3,6 +3,7 @@ import styles from "@/styles/Home.module.css";
 import Topo from "@/components/Topo";
 import Capa from "@/components/Capa";
 import Produtos from "@/components/Produtos";
+import Sobre from "@/components/Sobre";
 
 
 export default function Home() {
@@ -20,8 +21,11 @@ export default function Home() {
       </section>
 
       <section>
-        <Produtos></Produtos>
+        <Produtos/>
+      </section>
 
+      <section> 
+        <Sobre/>
       </section>
      
       
